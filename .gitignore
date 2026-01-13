@@ -1,0 +1,34 @@
+# Byte-code files
+*.pyc
+__pycache__/
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# Editor/IDE files
+
+.vscode/ # For VS Code
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# OS generated files
+Thumbs.db # Windows
+
+#env Variable
+.env/
+env
+
+
+#Ignore md file
+.md/
+.FIXES_APPLIED.md
