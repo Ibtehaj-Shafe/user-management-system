@@ -27,8 +27,11 @@ Thumbs.db # Windows
 #env Variable
 .env/
 env
-
+.env
+.env.local
+.env.*.local
 
 #Ignore md file
 .md/
 .FIXES_APPLIED.md
+".env" 
