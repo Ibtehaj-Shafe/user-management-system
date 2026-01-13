@@ -9,8 +9,7 @@ venv/
 ENV/
 
 # Editor/IDE files
-
-.vscode/ # For VS Code
+.vscode/
 
 # Build artifacts
 dist/
@@ -22,16 +21,12 @@ build/
 *.sqlite3
 
 # OS generated files
-Thumbs.db # Windows
+Thumbs.db
 
-#env Variable
-.env/
-env
+# Environment variables
 .env
 .env.local
 .env.*.local
 
-#Ignore md file
-.md/
-.FIXES_APPLIED.md
-".env" 
+# Ignore markdown fixes file
+FIXES_APPLIED.md
